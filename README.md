@@ -47,7 +47,6 @@ The assessment consists of two SQL challenges as detailed in the `problem_descri
 * **`generate_report.sql`**: SQL script containing the solution for Task 1 (Identify Top Repeat Customers).
 * **`generate_report_Task2.sql`**: SQL script containing the solution for Task 2 (Customer Purchase Rank by Month).
 * **`README.md`**: This file, providing an overview of the project, tasks, solution approaches, and contents.
-* **`.gitignore`** (Optional - if you added one): Specifies intentionally untracked files that Git should ignore.
 
 ---
 
