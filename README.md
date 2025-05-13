@@ -64,7 +64,6 @@ The assessment consists of two SQL challenges as detailed in the `problem_descri
     * `Customer_profiles`: Contains customer identifiers, names, signup channels, and account creation dates. [cite: 10, 11]
     * `Transactions`: Contains transaction IDs, customer IDs, transaction dates, order totals, and refund status. [cite: 12, 13]
     * `Orders` (for Task 2): Contains payment IDs, customer IDs, payment dates, amounts, and test payment status. [cite: 16, 17]
->>>>>>> 9bd58c4f351171c3b84731c45b1e7f844b4c7b04
 
 ---
 
