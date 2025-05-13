@@ -49,7 +49,7 @@ The assessment consists of two SQL challenges as detailed in the `problem_descri
 
 ## Technical Information
 
-* **SQL Dialect Used:** [**Specify SQL dialect you used, e.g., 'PostgreSQL', 'MySQL', 'T-SQL', or 'Standard SQL'**]
+* **SQL Dialect Used:** [**'PostgreSQL', 'MySQL', 'T-SQL', or 'Standard SQL'**]
 * **Key Tables & Schema:**
     * `Customer_profiles`: Contains customer identifiers, names, signup channels, and account creation dates. [cite: 10, 11]
     * `Transactions`: Contains transaction IDs, customer IDs, transaction dates, order totals, and refund status. [cite: 12, 13]
