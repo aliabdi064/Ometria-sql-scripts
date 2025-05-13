@@ -53,11 +53,19 @@ The assessment consists of two SQL challenges as detailed in the `problem_descri
 
 ## Technical Information
 
+<<<<<<< HEAD
 * **SQL Dialect Used:** [** SQL dialect you used, e.g., 'PostgreSQL', 'MySQL', 'SQL Server', 'SQLite'. Please ensure this matches the syntax in your .sql files.** For example, if you used `CURRENT_DATE - INTERVAL '90 day'`, that's common in PostgreSQL. If you used `STRFTIME`, that's common in SQLite. Mention any specific functions that might be dialect-dependent if relevant.]
 * **Key Tables & Schema (as per `problem_description.pdf`):**
     * `Customer_profiles`: Contains customer identifiers, names, signup channels, and account creation dates.
     * `Transactions`: Contains transaction IDs, customer IDs, transaction dates, order totals, and refund status.
     * `Orders` (for Task 2): Contains payment IDs, customer IDs, payment dates, amounts, and test payment status.
+=======
+* **SQL Dialect Used:** [**'PostgreSQL', 'MySQL', 'T-SQL', or 'Standard SQL'**]
+* **Key Tables & Schema:**
+    * `Customer_profiles`: Contains customer identifiers, names, signup channels, and account creation dates. [cite: 10, 11]
+    * `Transactions`: Contains transaction IDs, customer IDs, transaction dates, order totals, and refund status. [cite: 12, 13]
+    * `Orders` (for Task 2): Contains payment IDs, customer IDs, payment dates, amounts, and test payment status. [cite: 16, 17]
+>>>>>>> 9bd58c4f351171c3b84731c45b1e7f844b4c7b04
 
 ---
 
