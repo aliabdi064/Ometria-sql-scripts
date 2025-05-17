@@ -26,6 +26,15 @@ The assessment consists of two SQL challenges as detailed in the `problem_descri
     3.  Joined these aggregated statistics with the `Customer_profiles` table to retrieve customer details and account creation date.
     4.  Calculated account age based on the `account_created` date.
     5.  Ordered the results by 90-day spending in descending order and selected the top 10 customers.
+ 
+**Example Output (Top 3 rows of the 10):**
+
+| customer_id | Full Name     | account_age_days | total_lifetime_transactions | num_transactions_last_90_days | total_lifetime_spending | total_revenue_last_90_days |
+|-------------|---------------|------------------|-----------------------------|-------------------------------|---------------------------|----------------------------|
+| CUST0789    | Alice Wonderland | 730              | 55                          | 8                             | $12550.75                 | $3200.50                   |
+| CUST0123    | Bob The Builder| 1095             | 120                         | 5                             | $25000.00                 | $2850.00                   |
+| CUST1122    | Carol Danvers | 365              | 25                          | 3                             | $8500.20                  | $2700.90                   |
+| ...         | ...           | ...              | ...                         | ...                           | ...                       | ...                        |
 
 ### Task 2: Customer Purchase Rank by Month
 
