@@ -1,4 +1,4 @@
-# Ometria Business Data Analyst - Practical Assessment 1
+#  Business Data Analyst - Practical Assessment 1
 
 ## Project Overview
 
