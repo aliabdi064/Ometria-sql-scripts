@@ -48,6 +48,27 @@ The assessment consists of two SQL challenges as detailed in the `problem_descri
     3.  Filtered the ranked results to include only the top 3 customers for each month.
     4.  Ordered the final output by month and then by rank.
 
+
+
+### Sample Output
+
+The SQL query would produce an output similar to the following, showing the top 3 spenders for each month:
+
+| payment_month | customer_id | total_monthly_spending |
+| :------------ | :---------- | :----------------------- |
+| 2023-01       | CUST0789    | $1250.75                 |
+| 2023-01       | CUST0123    | $1100.00                 |
+| 2023-01       | CUST0555    | $1100.00                 |
+| 2023-02       | CUST0123    | $950.50                  |
+| 2023-02       | CUST0789    | $800.20                  |
+| 2023-02       | CUST0333    | $780.00                  |
+| 2023-03       | CUST0910    | $1500.00                 |
+| 2023-03       | CUST0123    | $1200.00                 |
+| 2023-03       | CUST0789    | $1050.00                 |
+
+**Explanation of Sample Output for '2023-01':**
+* `CUST0789` is the top spender (Rank 1).
+* `CUST0123` and `CUST0555` tied for the second rank based on their spending, so both are included as
 ---
 
 ## Repository Contents
